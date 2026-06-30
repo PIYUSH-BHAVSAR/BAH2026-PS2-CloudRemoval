@@ -445,11 +445,12 @@ D:\projects\BAH2026\
 
 ## Streamlit Demo
 
+**Streamlit Demo (Live):** https://cloudremoval.streamlit.app/
+
 **Local deployment:**
 ```bash
 streamlit run demo/app.py
 ```
-Opens at: **http://localhost:8501**
 
 **FastAPI endpoint:**
 ```bash

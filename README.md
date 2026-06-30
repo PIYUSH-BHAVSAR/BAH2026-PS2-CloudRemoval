@@ -1,6 +1,10 @@
 # PS2 — Cloud Removal for LISS-IV Satellite Imagery
 ## Bharatiya Antariksh Hackathon 2026
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://cloudremoval.streamlit.app/)
+
+**🚀 Live Demo: https://cloudremoval.streamlit.app/**
+
 Generative AI-based cloud removal and reconstruction for LISS-IV (ResourceSat-2) satellite imagery using Cross-Modal Attention U-Net.
 
 ## Demo
