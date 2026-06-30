@@ -1,0 +1,40 @@
+# Large data files — do not push to GitHub
+ps2_cloud/data/raw/
+ps2_cloud/data/processed/
+ps2_cloud/data/demo_cases/
+ps2_cloud/outputs/
+
+# Model checkpoints — stored on Google Drive
+models/checkpoints/
+
+# Raw LISS-IV zips
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Credentials
+token_drive.pkl
+*.json
+*.netrc
+_netrc
+
+# WandB logs
+wandb/
+
+# Temp files
+*.tmp
+*.log
+ps2_cloud/data/raw/dem/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

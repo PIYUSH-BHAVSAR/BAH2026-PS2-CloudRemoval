@@ -1,0 +1,36 @@
+data:
+  tile_size: 128
+  overlap: 16
+  min_cloud_coverage: 0.20
+  max_cloud_coverage: 0.95
+  val_fraction: 0.15
+  batch_size: 2
+  num_workers: 2
+
+model:
+  in_channels: 11
+  out_channels: 3
+  base_filters: 32
+  attention_heads: 4
+  attention_dropout: 0.1
+
+loss:
+  w_l1: 1.0
+  w_ssim: 0.5
+  w_spectral: 2.0
+  w_edge: 0.3
+  w_uncert: 0.2
+
+training:
+  phase1_epochs: 15
+  phase2_epochs: 25
+  phase1_lr: 5.0e-4
+  phase2_lr: 5.0e-5
+  weight_decay: 1.0e-4
+  grad_clip_norm: 1.0
+  mixed_precision: true
+  checkpoint_dir: models/checkpoints
+
+evaluation:
+  uncertainty_threshold: 0.3
+  edge_threshold: 0.1
